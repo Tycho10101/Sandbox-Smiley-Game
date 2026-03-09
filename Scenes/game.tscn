@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://d0golkpw2muj" path="res://Assets/Textures/Tilesets/Solid/bricks.png" id="5_v158k"]
 [ext_resource type="Texture2D" uid="uid://byhpdleg4mnmb" path="res://Assets/Textures/Tilesets/Solid/chamfer.png" id="6_h4fw4"]
 [ext_resource type="PackedScene" uid="uid://c0veptxoy6o8g" path="res://Scenes/player.tscn" id="7_1l0tm"]
+[ext_resource type="Script" uid="uid://brjnsxls4b1x" path="res://Scripts/camera.gd" id="8_v158k"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qxrlw"]
 texture = ExtResource("1_ebmjs")
@@ -191,7 +192,8 @@ tile_set = SubResource("TileSet_3dryh")
 [node name="Player" parent="." unique_id=1128906518 instance=ExtResource("7_1l0tm")]
 position = Vector2(344, 601)
 
-[node name="Camera2D" type="Camera2D" parent="Player" unique_id=1656101228]
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1656101228 node_paths=PackedStringArray("follow_target")]
+position = Vector2(344, 601)
 zoom = Vector2(2, 2)
-position_smoothing_enabled = true
-position_smoothing_speed = 6.0
+script = ExtResource("8_v158k")
+follow_target = NodePath("../Player")
