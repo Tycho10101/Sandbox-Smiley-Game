@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d4gagypt3qony"
-path="res://.godot/imported/beveled.png-0d2c8e51de89071fad085df653ef925c.ctex"
+path="res://.godot/imported/beveled.png-bda259b1cc9ba65ef83f73ecb3257606.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Textures/Tilesets/Solid/beveled.png"
-dest_files=["res://.godot/imported/beveled.png-0d2c8e51de89071fad085df653ef925c.ctex"]
+source_file="res://objects/tiles/solid/beveled.png"
+dest_files=["res://.godot/imported/beveled.png-bda259b1cc9ba65ef83f73ecb3257606.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://byhpdleg4mnmb"
-path="res://.godot/imported/chamfer.png-b690c0c921cb17bef819b885e2c35fe2.ctex"
+uid="uid://d0golkpw2muj"
+path="res://.godot/imported/bricks.png-481f2a82b19e6c6fa6033caab889b73c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Textures/Tilesets/Solid/chamfer.png"
-dest_files=["res://.godot/imported/chamfer.png-b690c0c921cb17bef819b885e2c35fe2.ctex"]
+source_file="res://objects/tiles/solid/bricks.png"
+dest_files=["res://.godot/imported/bricks.png-481f2a82b19e6c6fa6033caab889b73c.ctex"]
 
 [params]
 

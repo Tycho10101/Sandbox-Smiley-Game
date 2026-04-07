@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cumkyeebx15ly"
-path="res://.godot/imported/player_body.png-c016fbbe199247e538ab9dbce248df48.ctex"
+uid="uid://byhpdleg4mnmb"
+path="res://.godot/imported/chamfer.png-604dc1274b8bdae4e4c90c09f250519f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Textures/Player/player_body.png"
-dest_files=["res://.godot/imported/player_body.png-c016fbbe199247e538ab9dbce248df48.ctex"]
+source_file="res://objects/tiles/solid/chamfer.png"
+dest_files=["res://.godot/imported/chamfer.png-604dc1274b8bdae4e4c90c09f250519f.ctex"]
 
 [params]
 

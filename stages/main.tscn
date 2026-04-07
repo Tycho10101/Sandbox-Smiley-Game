@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://ksui207qteyl"]
 
-[ext_resource type="PackedScene" uid="uid://dr1etngucns5l" path="res://Scenes/game.tscn" id="1_jjgbg"]
+[ext_resource type="PackedScene" uid="uid://dr1etngucns5l" path="res://stages/game.tscn" id="1_jjgbg"]
 
 [node name="Main" type="Control" unique_id=1790452345]
 layout_mode = 3
